@@ -1,0 +1,623 @@
+/* *{
+    margin: 0px;
+    padding: 0;
+
+} */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.right-side {
+  display: flex;
+}
+
+.reserve,
+.order-online {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+
+}
+
+.introduction {
+  width: 40%;
+  text-align: left;
+}
+
+.introduction h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.image {
+  width: 30%;
+  background-color: rgb(255, 166, 0);
+}
+
+.image img {
+  border-radius: 80px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: 120px;
+}
+
+#or {
+  color: orange;
+}
+
+.btn {
+  border-radius: 200px;
+  color: black;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 16px;
+  position: relative;
+  left: 35px;
+}
+
+#cl {
+  background-color: orange;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 50px 0;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  position: relative;
+  bottom: 50px;
+}
+
+.images img {
+  padding: 0px 50px;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 50px 0;
+  position: relative;
+  bottom: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  border: 3px solid silver;
+  height: 390px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 20px;
+
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.explore {
+  color: orange;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.order-online {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.book-table {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+img5 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.about-us-section {
+  background-color: #FFA07A;
+  display: flex;
+  padding: 32px;
+}
+
+.about-us-left {
+  flex: 1;
+  background-image: url("https://atri-apps.github.io/restaurant_website/app-assets/616d9a0bdba0fb13cfd32fc0_about-home-restaurante-x-template-p-1080.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80vh;
+  display: flex;
+  justify-content: end;
+  position: relative;
+
+
+
+}
+
+.about-us-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-heading {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.about-us-intro {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.about-us-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.about-us-address {
+  font-size: 14px;
+  text-align: center;
+  background-color: white;
+  height: 170px;
+  width: 200px;
+  position: relative;
+  top: 58vh;
+  right: 15vh;
+  border-radius: 20px;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+.menu-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.menu-intro {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.menu-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-card {
+  width: 300px;
+  height: 400px;
+  margin: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.menu-card-img {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-card-price {
+  background-color: white;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu-card-intro {
+  text-align: center;
+  margin: 16px;
+}
+
+.menu-card-btn {
+  display: flex;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.section {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 48px 0;
+}
+
+.box-left {
+  width: 40%;
+  text-align: center;
+}
+
+.box-left-heading {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.box-left-para {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.box-left-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.order-online-btn {
+  background-color: green;
+}
+
+.box-right {
+  position: relative;
+  left: 50px;
+  width: 60%;
+}
+
+.box-right-img {
+  width: 100%;
+  height: auto;
+}
+
+.review-section {
+  border: 2px solid silver;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.reviewer-info {
+  font-style: italic;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.review-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.review-rating {
+  font-size: 32px;
+  color: green;
+}
+
+.section-container {
+  display: flex;
+  background-color: #edc9af;
+  height: 900px;
+}
+
+.left-section {
+  width: 50%;
+  padding: 20px;
+}
+
+.right-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.section-image {
+  width: 100%;
+  height: auto;
+}
+
+.section-introduction {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.right-image-container {
+  width: 60%;
+  height: 200px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  height: 500px;
+  border: 2px solid silver;
+}
+
+.left-section {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.right-section {
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  width: 50%;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.section-introduction {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.section-address {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.section-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.follow-us-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instagram-images {
+  width: calc(25% - 20px);
+  height: 200px;
+  margin: 10px;
+}
+
+.follow-us-button {
+  width: 200px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
